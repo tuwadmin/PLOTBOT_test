@@ -145,8 +145,8 @@ WiFiClientSecure client;
 #include <HTTPUpdate.h>
 #include <OTA_cert.h>
 String FirmwareVer = {"1.0"};
-#define URL_fw_Version "https://github.com/Abdullah-python/esp32-ota/blob/master/firmware_version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/Abdullah-python/esp32-ota/master/firmware.bin"
+#define URL_fw_Version "https://raw.githubusercontent.com/Abdullah-python/PLOTBOT_test/main/firmware_version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/Abdullah-python/PLOTBOT_test/main/fw/firmware.bin"
 unsigned long previousMillis = 0; // will store last time LED was updated
 const long interval = 60000;
 
