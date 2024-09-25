@@ -2,7 +2,7 @@
 
 #define CERT_H
 
-const char * OTAcert = \
+const char * CAcert = \
 "-----BEGIN CERTIFICATE-----\n"
 "MIIDjjCCAnagAwIBAgIQAzrx5qcRqaC7KGSxHQn65TANBgkqhkiG9w0BAQsFADBh\n"
 "MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3\n"
